@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(../font/HelveticaNeueCyr-Light.woff);
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(123.22% 129.67% at 100.89% -5.6%, #201D47 0%, #17153A 100%);
+  font-family: "HelveticaNeue" !important;
+}
+
+#container {
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#left-menu {
+  min-height: 100vh;
+  position: fixed;
+  left: 0px;
+  background: linear-gradient(180deg, rgba(38, 34, 80, 0.65) 0%, rgba(27, 25, 66, 0.85) 57.44%, #17163B 100%);
+}
+#left-menu .left-menu-heading {
+  font-size: 18px;
+  padding-left: 23px;
+}
+#left-menu .left-menu-heading .bold-heading {
+  font-weight: bold;
+}
+#left-menu .menu-1 {
+  padding-bottom: 40px;
+  position: relative;
+}
+#left-menu .menu-2 {
+  padding-bottom: 50px;
+  position: relative;
+}
+#left-menu .menu-3 {
+  padding-bottom: 40px;
+  position: relative;
+}
+#left-menu .menu-3 .notification {
+  top: 18px;
+  background: linear-gradient(180deg, #FF40A5 0%, #E14CD1 100%);
+  right: 50px;
+}
+#left-menu .menu-4 {
+  padding-bottom: 40px;
+  position: relative;
+}
+#left-menu a {
+  color: #6F6C99;
+  font-size: 16px;
+}
+#left-menu svg {
+  margin-right: 25px;
+}
+
+#left-menu-list {
+  margin-top: 145px;
+}
+
+/*# sourceMappingURL=all.css.map */
