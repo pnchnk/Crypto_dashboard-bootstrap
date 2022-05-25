@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: radial-gradient(123.22% 129.67% at 100.89% -5.6%, #201D47 0%, #17153A 100%);
+    background: $main-color;
     font-family: 'HelveticaNeue' !important;
 }
 
@@ -10,4 +10,13 @@ html, body {
     min-height: 100%;
     width: 100%;
     position: relative;
+}
+
+#content {
+    margin-left: 300px;
+    position: relative;
+}
+
+h2 {
+    color: aliceblue;
 }
