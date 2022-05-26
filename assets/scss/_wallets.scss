@@ -1,0 +1,77 @@
+
+
+.wallet-cards {
+    width: 200px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 1px solid $wallet-border-color;
+    border-radius: 10px;
+    height: min-content;
+
+    a {
+        text-decoration: none;
+    }
+
+    &:hover {
+        background: linear-gradient(135deg, #40DDFF 0%, #14BAE3 19.24%, #13B1E6 68.64%, #11AADF 81.77%, #0B98C5 100%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        .logo-currency {
+            fill: white;
+        }
+    }
+
+    .logo-currency {
+        display: block;
+        margin: auto;
+        
+    }
+
+    .wallet-amount {
+        color: white;
+        opacity: 0.7;
+        .wallet-currency {
+            opacity: 0.3;
+            font-weight: bold;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+    }
+
+    .wallet-percentage {
+        color: $text-color;
+
+        .percent { 
+            font-size: 11px;
+            font-weight: 600;
+            svg {
+                margin-right: 6px;
+            }
+        }
+        .down {
+            color: $down-indicator-color;
+        }
+        .up {
+            color: $up-indicator-color;
+        }
+    }
+}
+
+.empty {
+    border: 1px dashed $wallet-border-color;
+    height: auto;
+    min-height: 115px;
+    .add-currency {
+        display: block;
+        margin: auto;
+        color: $text-color;
+        font-size: 14px;
+        font-weight: bold;
+        a {
+            color: $text-color;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}

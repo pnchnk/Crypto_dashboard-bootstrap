@@ -103,14 +103,14 @@
           <div id="content">
             <div class="container-fluid">
               <header id="page-header" class="p-3">
-                <div class="container-fluid">
+                
                   <div class="row">
                     <div class="d-flex flex-wrap ">
                       <div class="justify-content-start flex-column">
                         <div class="header-h2">
                           <h2>Dashboard</h2>
                         </div>
-                        <div class="header-p">
+                        <div class="header-p d-none d-xl-block d-xxl-block">
                           <p>With all of the styling tool options available in today's market</p>
                         </div>
                       </div>
@@ -146,7 +146,7 @@
                         <div class="dropdown text-end flex-end align-items-start profile-photo">
                           <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="https://scontent.fotp3-3.fna.fbcdn.net/v/t39.30808-6/277806385_7269962566412057_7866062582976858851_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=wQ_tzOlQGaQAX9_cs43&_nc_ht=scontent.fotp3-3.fna&oh=00_AT-aH2LezP3dEFwEaF5OhIt6uSozHIejeFGForAE18Vmyg&oe=6292FC19" alt="mdo" width="32" height="32" class="rounded">
-                            <span class="profile-name ms-2">Nikita Panchenko</span>
+                            <span class="profile-name ms-2 d-none d-lg-inline-block">Nikita Panchenko</span>
                           </a>
                           <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
                             <li><a class="dropdown-item" href="#">New project...</a></li>
@@ -159,8 +159,197 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                
               </header>
+
+              <section id="wallets" class="d-flex p-3">
+                <div class="row">
+                  <h2>Wallets</h2>
+                  
+                  <div class="row mt-3">
+                    <div class="card mb-3 wallet-cards">
+                      <a href="#">
+                        <div class="row g-0">
+                          <div class="col-md-2 d-flex align-items-center">
+                            <svg class="logo-currency" width="30" height="34" viewBox="0 0 30 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g filter="url(#filter0_d_0_23)">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2843 8.46064L12.2994 11.5489H16.7303C17.5173 11.5489 18.155 10.909 18.1511 10.1221L18.15 9.88744C18.1461 9.10038 17.5022 8.46064 16.7151 8.46064H12.8909H12.2843ZM18.7134 16.2431L18.7121 15.9952C18.708 15.1174 17.9905 14.4047 17.1129 14.4047H16.7441H12.3133L12.3301 17.8338H17.1295C18.0072 17.8338 18.7177 17.1198 18.7134 16.2431ZM20.1197 12.7376C21.0015 13.55 21.5606 14.708 21.5669 15.9952L21.5681 16.2431C21.58 18.6938 19.5951 20.6884 17.1434 20.6884H17.035L17.0412 22H14.1867L14.1802 20.6884H13.0103L13.0167 22H10.1621L10.1557 20.6884H9.4893H8.0736L8.05967 17.8338H9.47537L9.45873 14.4047L9.44468 11.5489L9.42963 8.46064H8.01393L8 5.60495H10.0821L10.0743 4H12.9289L12.9367 5.60495H14.1068L14.0989 4H16.9536L16.9613 5.61839C19.2025 5.75437 20.9936 7.61403 21.0047 9.88744L21.0058 10.1221C21.0106 11.1072 20.6773 12.0127 20.1197 12.7376Z" fill="white"/>
+                              </g>
+                              <defs>
+                              <filter id="filter0_d_0_23" x="0" y="0" width="29.5681" height="34" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                              <feOffset dy="4"/>
+                              <feGaussianBlur stdDeviation="4"/>
+                              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0744452 0"/>
+                              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_23"/>
+                              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_23" result="shape"/>
+                              </filter>
+                              </defs>
+                              </svg>                            
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title wallet-amount">1.967 <span class="wallet-currency">BTC</span></h5>
+                              <div class="wallet-stats d-flex justify-content-between align-items-center">
+                                <div class="wallet-graphic">
+                                  <svg  width="56" height="49" viewBox="0 0 56 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_f_0_48)">
+                                    <ellipse cx="28.9912" cy="24.4173" rx="7.91173" ry="4.58047" transform="rotate(-11 28.9912 24.4173)" fill="url(#paint0_linear_0_48)"/>
+                                    </g>
+                                    <path d="M1 33.3936C1 33.3936 3.79213 28.2178 7 30C10.2079 31.7822 10.6236 33.3936 13.4751 32.3244C16.3265 31.2551 16.505 22.2178 19 24C21.495 25.7822 27.6535 29.3465 33 24" stroke="url(#paint1_linear_0_48)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <defs>
+                                    <filter id="filter0_f_0_48" x="2.29877" y="0.796768" width="53.3849" height="47.2411" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                    <feGaussianBlur stdDeviation="9.43814" result="effect1_foregroundBlur_0_48"/>
+                                    </filter>
+                                    <linearGradient id="paint0_linear_0_48" x1="29.8335" y1="31.6549" x2="34.8074" y2="24.2498" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#62CBFF" stop-opacity="0.01"/>
+                                    <stop offset="1" stop-color="#339CFE"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_0_48" x1="20.7639" y1="21.2196" x2="13.9691" y2="38.4948" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#309AFF"/>
+                                    <stop offset="0.287496" stop-color="#309AFF"/>
+                                    <stop offset="0.651175" stop-color="#5364AE"/>
+                                    <stop offset="1" stop-color="#70366B" stop-opacity="0.01"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>                                  
+                                </div>
+                                <div class="wallet-percentage">
+                                  <span class="percent up">+12,5%</span>
+                                </div>
+                                
+                              </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="card mb-3 wallet-cards">
+                      <a href="#">
+                        <div class="row g-0">
+                          <div class="col-md-2 d-flex align-items-center">
+                            <svg class="logo-currency " width="17" height="26" viewBox="0 0 17 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.48909 9.60594L0 13.2332L8.48909 17.9452L16.9748 13.2332L8.48909 9.60594Z" fill="#010101" fill-opacity="0.6"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13.2332L8.48909 17.9452V0L0 13.2332Z" fill="#535175"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.48901 0V17.9452L16.9747 13.2332L8.48901 0Z" fill="#434162"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 14.7443L8.48909 25.9804V19.4563L0 14.7443Z" fill="#535175"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.48901 19.4563V25.9804L16.9814 14.7443L8.48901 19.4563Z" fill="#434162"/>
+                              </svg>                            
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title wallet-amount">23.234 <span class="wallet-currency">ETH</span></h5>
+                              <div class="wallet-stats d-flex justify-content-between align-items-center">
+                                <div class="wallet-graphic">
+                                  <svg width="59" height="49" viewBox="0 0 59 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_f_5_20)">
+                                    <ellipse cx="32.309" cy="24.4161" rx="7.84884" ry="3.40348" transform="rotate(29 32.309 24.4161)" fill="url(#paint0_linear_5_20)"/>
+                                    </g>
+                                    <path d="M32 25.1623C32 25.1623 29.2079 19.3802 26 21.1623C22.7921 22.9445 19.8016 22.9696 14.9008 17.566C10 12.1623 6.34646 22.9124 1 17.566" stroke="url(#paint1_linear_5_20)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <defs>
+                                    <filter id="filter0_f_5_20" x="6.37079" y="0.708405" width="51.8763" height="47.4154" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                    <feGaussianBlur stdDeviation="9.43814" result="effect1_foregroundBlur_5_20"/>
+                                    </filter>
+                                    <linearGradient id="paint0_linear_5_20" x1="33.0414" y1="29.742" x2="36.1628" y2="23.5376" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF62B8" stop-opacity="0.01"/>
+                                    <stop offset="1" stop-color="#FE33D1"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_5_20" x1="12.8537" y1="13.5742" x2="19.2383" y2="30.0944" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#A330FF" stop-opacity="0.01"/>
+                                    <stop offset="0.393247" stop-color="#BC3DCB"/>
+                                    <stop offset="1" stop-color="#E3507A"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>
+                                                  
+                                </div>
+                                <div class="wallet-percentage">
+                                  <span class="percent down"><svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.60609 2.39391L2.69695 1.48477C2.36222 1.15004 1.81951 1.15004 1.48477 1.48477C1.15004 1.81951 1.15004 2.36222 1.48477 2.69695L2.39391 3.60609L0 6H6V0L3.60609 2.39391Z" fill="#E3507A"/>
+                                    </svg>
+                                    -5,1%</span>
+                                </div>
+                                
+                              </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="card mb-3 wallet-cards">
+                      <a href="#">
+                        <div class="row g-0">
+                          <div class="col-md-2 d-flex align-items-center">
+                            <svg class="logo-currency" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path opacity="0.87" d="M11.9983 23.9371C5.40577 23.9371 0.0615234 18.5927 0.0615234 12.0002C0.0615234 5.40776 5.40577 0.0635147 11.9983 0.0635147C18.5907 0.0635147 23.9349 5.40776 23.9349 12.0002C23.9349 18.5927 18.5908 23.9371 11.9983 23.9371Z" fill="#494767"/>
+                              <path d="M12.0759 12.2696L13.9115 11.599L14.368 9.88321L14.3525 9.84065L12.5456 10.5008L13.8474 5.59866H10.1553L8.45274 11.996L7.03123 12.5153L6.56152 14.2841L7.98195 13.7653L6.97851 17.5355H16.8048L17.4348 15.189H11.3005L12.0759 12.2696Z" fill="#151334"/>
+                              </svg>                            
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title wallet-amount">380.234 <span class="wallet-currency">LTC</span></h5>
+                              <div class="wallet-stats d-flex justify-content-between align-items-center">
+                                <div class="wallet-graphic">
+                                  <svg  width="56" height="49" viewBox="0 0 56 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_f_0_48)">
+                                    <ellipse cx="28.9912" cy="24.4173" rx="7.91173" ry="4.58047" transform="rotate(-11 28.9912 24.4173)" fill="url(#paint0_linear_0_48)"/>
+                                    </g>
+                                    <path d="M1 33.3936C1 33.3936 3.79213 28.2178 7 30C10.2079 31.7822 10.6236 33.3936 13.4751 32.3244C16.3265 31.2551 16.505 22.2178 19 24C21.495 25.7822 27.6535 29.3465 33 24" stroke="url(#paint1_linear_0_48)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <defs>
+                                    <filter id="filter0_f_0_48" x="2.29877" y="0.796768" width="53.3849" height="47.2411" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                    <feGaussianBlur stdDeviation="9.43814" result="effect1_foregroundBlur_0_48"/>
+                                    </filter>
+                                    <linearGradient id="paint0_linear_0_48" x1="29.8335" y1="31.6549" x2="34.8074" y2="24.2498" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#62CBFF" stop-opacity="0.01"/>
+                                    <stop offset="1" stop-color="#339CFE"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_0_48" x1="20.7639" y1="21.2196" x2="13.9691" y2="38.4948" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#309AFF"/>
+                                    <stop offset="0.287496" stop-color="#309AFF"/>
+                                    <stop offset="0.651175" stop-color="#5364AE"/>
+                                    <stop offset="1" stop-color="#70366B" stop-opacity="0.01"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>                                  
+                                </div>
+                                <div class="wallet-percentage">
+                                  <span class="percent up"><svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.60609 3.60609L2.69695 4.51523C2.36222 4.84996 1.81951 4.84996 1.48477 4.51523C1.15004 4.18049 1.15004 3.63778 1.48477 3.30305L2.39391 2.39391L0 0H6V6L3.60609 3.60609Z" fill="#50E3C2"/>
+                                    </svg>
+                                    +12,5%</span>
+                                </div>
+                                
+                              </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                    </a>
+                    </div>
+
+                    <div class="card mb-3 wallet-cards empty">
+                      <h5 class="add-currency"><a href="#">+ Add currency</a></h5>
+                    </div>
+
+                  </div>
+                 
+                  
+                </div>
+              </section>
+
+
+              
             </div>
           </div>
 
