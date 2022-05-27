@@ -174,4 +174,15 @@ h2 {
   color: white;
 }
 
+#graphic {
+  height: 500px;
+  background: linear-gradient(135deg, #40DDFF 0%, #14BAE3 19.24%, #13B1E6 68.64%, #11AADF 81.77%, #0B98C5 100%);
+}
+#graphic .tradingview-widget-container {
+  height: 500px;
+}
+#graphic #tradingview_38d36 {
+  height: inherit;
+}
+
 /*# sourceMappingURL=all.css.map */
