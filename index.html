@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="container">
-        <div id="left-menu" class="d-flex flex-column flex-shrink-0 p-3 text-white" style="width: 300px;">
+        <div id="left-menu" class="d-flex flex-column flex-shrink-0 p-3 text-white d-none d-md-block" style="width: 300px;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                 <svg width="46" height="46" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_d_0_409)">
@@ -117,14 +117,24 @@
                       
                       <div class="header-components d-flex ms-auto">
                         <div class="header-icons align-items-start">
-                            <svg class="search" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            
+                          <svg class="search" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="14.5" cy="14.5" r="9.5" stroke="#5B5A99" stroke-width="2"/>
                             <path d="M21 22L25.7929 26.7929" stroke="#5B5A99" stroke-width="2"/>
                             </svg>
 
-                            <svg class="menu" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            
+                            
+                            <a href="#" class=" link-dark text-decoration-none dropdown-toggle d-md-none" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false"><svg class="dropdown menu" id="dropdownUser2" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M6 8C6 6.89543 6.89543 6 8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8ZM6 16C6 14.8954 6.89543 14 8 14C9.10457 14 10 14.8954 10 16C10 17.1046 9.10457 18 8 18C6.89543 18 6 17.1046 6 16ZM16 6C14.8954 6 14 6.89543 14 8C14 9.10457 14.8954 10 16 10C17.1046 10 18 9.10457 18 8C18 6.89543 17.1046 6 16 6ZM14 16C14 14.8954 14.8954 14 16 14C17.1046 14 18 14.8954 18 16C18 17.1046 17.1046 18 16 18C14.8954 18 14 17.1046 14 16ZM24 6C22.8954 6 22 6.89543 22 8C22 9.10457 22.8954 10 24 10C25.1046 10 26 9.10457 26 8C26 6.89543 25.1046 6 24 6ZM22 16C22 14.8954 22.8954 14 24 14C25.1046 14 26 14.8954 26 16C26 17.1046 25.1046 18 24 18C22.8954 18 22 17.1046 22 16ZM8 22C6.89543 22 6 22.8954 6 24C6 25.1046 6.89543 26 8 26C9.10457 26 10 25.1046 10 24C10 22.8954 9.10457 22 8 22ZM14 24C14 22.8954 14.8954 22 16 22C17.1046 22 18 22.8954 18 24C18 25.1046 17.1046 26 16 26C14.8954 26 14 25.1046 14 24ZM24 22C22.8954 22 22 22.8954 22 24C22 25.1046 22.8954 26 24 26C25.1046 26 26 25.1046 26 24C26 22.8954 25.1046 22 24 22Z" fill="#5B5A99"/>
-                            </svg>                          
+                            </svg></a>  
+                            <ul class="dropdown-menu text-small profile-dropdown" aria-labelledby="dropdownUser2">
+                              <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                              <li><a class="dropdown-item" href="#">Wallet</a></li>
+                              <li><a class="dropdown-item" href="#">Messages</a></li>
+                              <li><a class="dropdown-item" href="#">Trade</a></li>
+                              <li><a class="dropdown-item" href="#">Account settings</a></li>
+                            </ul>                       
                         </div>
 
                         <div class="header-notification me-4 align-items-start">
@@ -141,10 +151,10 @@
                                 <h6 class="notification-menu-heading">Notifications</h6>
                                 <div class="card mb-3 notification-menu-card">
                                   <div class="row g-0">
-                                    <div class="col-md-2">
+                                    <div class="col-2">
                                       <img src="./assets/img/Avatar.png" class="img-fluid" alt="...">
                                     </div>
-                                    <div class="col-md-10">
+                                    <div class="col-10">
                                       <div class="card-body notification-menu-card-body">
                                         <div class="notification-card-heading d-flex">
                                           <h5 class="card-title">Clifford Hale</h5>
@@ -160,10 +170,10 @@
 
                                 <div class="card mb-3 notification-menu-card">
                                   <div class="row g-0">
-                                    <div class="col-md-2">
+                                    <div class="col-2">
                                       <img src="./assets/img/Avatar2.png" class="img-fluid" alt="...">
                                     </div>
-                                    <div class="col-md-10">
+                                    <div class="col-10">
                                       <div class="card-body notification-menu-card-body">
                                         <div class="notification-card-heading d-flex">
                                           <h5 class="card-title">Lottie Marsh</h5>
@@ -214,12 +224,12 @@
                 <div class="row ">
                   <h5>Wallets</h5>
                   
-                  <div class="row mt-3 justify-content-sm-center justify-content-xl-start ">
+                  <div class="row mt-3 justify-content-center justify-content-sm-start">
                     <div class="card mb-3 wallet-cards">
                       <a href="#">
                         <div class="row g-0">
                           <div class="col-md-2 d-flex align-items-center">
-                            <svg class="logo-currency" width="30" height="34" viewBox="0 0 30 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="logo-currency d-none d-md-block" width="30" height="34" viewBox="0 0 30 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <g filter="url(#filter0_d_0_23)">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2843 8.46064L12.2994 11.5489H16.7303C17.5173 11.5489 18.155 10.909 18.1511 10.1221L18.15 9.88744C18.1461 9.10038 17.5022 8.46064 16.7151 8.46064H12.8909H12.2843ZM18.7134 16.2431L18.7121 15.9952C18.708 15.1174 17.9905 14.4047 17.1129 14.4047H16.7441H12.3133L12.3301 17.8338H17.1295C18.0072 17.8338 18.7177 17.1198 18.7134 16.2431ZM20.1197 12.7376C21.0015 13.55 21.5606 14.708 21.5669 15.9952L21.5681 16.2431C21.58 18.6938 19.5951 20.6884 17.1434 20.6884H17.035L17.0412 22H14.1867L14.1802 20.6884H13.0103L13.0167 22H10.1621L10.1557 20.6884H9.4893H8.0736L8.05967 17.8338H9.47537L9.45873 14.4047L9.44468 11.5489L9.42963 8.46064H8.01393L8 5.60495H10.0821L10.0743 4H12.9289L12.9367 5.60495H14.1068L14.0989 4H16.9536L16.9613 5.61839C19.2025 5.75437 20.9936 7.61403 21.0047 9.88744L21.0058 10.1221C21.0106 11.1072 20.6773 12.0127 20.1197 12.7376Z" fill="white"/>
                               </g>
@@ -281,7 +291,7 @@
                       <a href="#">
                         <div class="row g-0">
                           <div class="col-md-2 d-flex align-items-center">
-                            <svg class="logo-currency " width="17" height="26" viewBox="0 0 17 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="logo-currency d-none d-md-block" width="17" height="26" viewBox="0 0 17 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M8.48909 9.60594L0 13.2332L8.48909 17.9452L16.9748 13.2332L8.48909 9.60594Z" fill="#010101" fill-opacity="0.6"/>
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13.2332L8.48909 17.9452V0L0 13.2332Z" fill="#535175"/>
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M8.48901 0V17.9452L16.9747 13.2332L8.48901 0Z" fill="#434162"/>
@@ -319,9 +329,7 @@
                                                   
                                 </div>
                                 <div class="wallet-percentage">
-                                  <span class="percent down"><svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M3.60609 2.39391L2.69695 1.48477C2.36222 1.15004 1.81951 1.15004 1.48477 1.48477C1.15004 1.81951 1.15004 2.36222 1.48477 2.69695L2.39391 3.60609L0 6H6V0L3.60609 2.39391Z" fill="#E3507A"/>
-                                    </svg>
+                                  <span class="percent down">
                                     -5,1%</span>
                                 </div>
                                 
@@ -337,7 +345,7 @@
                       <a href="#">
                         <div class="row g-0">
                           <div class="col-md-2 d-flex align-items-center">
-                            <svg class="logo-currency" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="logo-currency d-none d-md-block" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path opacity="0.87" d="M11.9983 23.9371C5.40577 23.9371 0.0615234 18.5927 0.0615234 12.0002C0.0615234 5.40776 5.40577 0.0635147 11.9983 0.0635147C18.5907 0.0635147 23.9349 5.40776 23.9349 12.0002C23.9349 18.5927 18.5908 23.9371 11.9983 23.9371Z" fill="#494767"/>
                               <path d="M12.0759 12.2696L13.9115 11.599L14.368 9.88321L14.3525 9.84065L12.5456 10.5008L13.8474 5.59866H10.1553L8.45274 11.996L7.03123 12.5153L6.56152 14.2841L7.98195 13.7653L6.97851 17.5355H16.8048L17.4348 15.189H11.3005L12.0759 12.2696Z" fill="#151334"/>
                               </svg>                            
@@ -372,9 +380,7 @@
                                     </svg>                                  
                                 </div>
                                 <div class="wallet-percentage">
-                                  <span class="percent up"><svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M3.60609 3.60609L2.69695 4.51523C2.36222 4.84996 1.81951 4.84996 1.48477 4.51523C1.15004 4.18049 1.15004 3.63778 1.48477 3.30305L2.39391 2.39391L0 0H6V6L3.60609 3.60609Z" fill="#50E3C2"/>
-                                    </svg>
+                                  <span class="percent up">
                                     +12,5%</span>
                                 </div>
                                 
@@ -432,7 +438,7 @@
                 <div class="container-fluid">
                   <h5>Trend</h5>
 
-                  <div class="row row-col-4 mt-3 justify-content-sm-center justify-content-xl-start">
+                  <div class="row row-col-4 mt-3  justify-content-center justify-content-md-start">
                     <div class="card mb-3 trend-cards">
                       <a href="#">
                         <div class="row g-0">
@@ -448,9 +454,7 @@
                           </div>   
                           <div class="col-md-5 d-flex align-items-center">
                             <div class="trend-percentage">
-                              <span class="percent down"><svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.60609 2.39391L2.69695 1.48477C2.36222 1.15004 1.81951 1.15004 1.48477 1.48477C1.15004 1.81951 1.15004 2.36222 1.48477 2.69695L2.39391 3.60609L0 6H6V0L3.60609 2.39391Z" fill="#E3507A"/>
-                                </svg>
+                              <span class="percent down">
                                 -5,1%</span>
                             </div>                       
                           </div>  
@@ -501,9 +505,7 @@
                           </div>   
                           <div class="col-md-5 d-flex align-items-center">
                             <div class="trend-percentage">
-                              <span class="percent up"><svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.00508 3.60609L2.24746 4.51523C1.96852 4.84996 1.51626 4.84996 1.23731 4.51523C0.958363 4.18049 0.958363 3.63778 1.23731 3.30305L1.99492 2.39391L0 0H5V6L3.00508 3.60609Z" fill="#50E3C2"/>
-                                </svg>                                
+                              <span class="percent up">                              
                                 +5,7%</span>
                             </div>                       
                           </div>  
@@ -554,9 +556,7 @@
                           </div>   
                           <div class="col-md-5 d-flex align-items-center">
                             <div class="trend-percentage">
-                              <span class="percent up"><svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.00508 3.60609L2.24746 4.51523C1.96852 4.84996 1.51626 4.84996 1.23731 4.51523C0.958363 4.18049 0.958363 3.63778 1.23731 3.30305L1.99492 2.39391L0 0H5V6L3.00508 3.60609Z" fill="#50E3C2"/>
-                                </svg>                                
+                              <span class="percent up">                         
                                 +3,4%</span>
                             </div>                       
                           </div>  
@@ -607,9 +607,7 @@
                           </div>   
                           <div class="col-md-5 d-flex align-items-center">
                             <div class="trend-percentage">
-                              <span class="percent up"><svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.00508 3.60609L2.24746 4.51523C1.96852 4.84996 1.51626 4.84996 1.23731 4.51523C0.958363 4.18049 0.958363 3.63778 1.23731 3.30305L1.99492 2.39391L0 0H5V6L3.00508 3.60609Z" fill="#50E3C2"/>
-                                </svg>                                
+                              <span class="percent up">                    
                                 +132%</span>
                             </div>                       
                           </div>  
