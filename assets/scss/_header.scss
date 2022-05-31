@@ -110,3 +110,16 @@
         font-weight: 500;
     }
 }
+
+//dropdown menu profile
+
+.profile-dropdown {
+    background: linear-gradient(210.96deg, rgba(40, 36, 88, 0.61) 0.01%, rgba(38, 35, 83, 0.7) 42.05%, rgba(62, 59, 115, 0) 104.81%);
+    filter: drop-shadow(0px 48px 69px rgba(23, 18, 43, 0.845335));
+    z-index: 1;
+
+    li a {
+        color: $text-color;
+        font-weight: 700;
+    }
+}
