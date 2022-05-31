@@ -33,3 +33,80 @@
 .dropdown-toggle::after {
     color: $text-color;
 }
+
+//Dropdown notification menu styles
+
+.notification-menu {
+    width: 450px;
+    height: 250px;
+    background: linear-gradient(210.96deg, rgba(40, 36, 88, 0.61) 0.01%, rgba(38, 35, 83, 0.7) 42.05%, rgba(62, 59, 115, 0) 104.81%);
+    filter: drop-shadow(0px 48px 69px rgba(23, 18, 43, 0.845335));
+    z-index: 1;
+}
+
+.notification-content {
+    padding-right: 25px;
+    padding-left: 40px;
+    height: inherit;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        width: 10px; /* ширина для вертикального скролла */
+        background-color: #143861;
+    }
+    
+    &::-webkit-scrollbar-button:vertical:start:decrement {
+        background-color: #f6f8f4;
+    }
+    
+    &::-webkit-scrollbar-button:vertical:end:increment {
+        background-color: #f6f8f4;
+    }
+    
+
+    .notification-menu-heading {
+        color: rgba(177, 175, 205, 1);
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+}
+
+.notification-menu-card {
+    height: max-content;
+    background: inherit;
+    border: none;
+    margin-top: 30px;
+    width: 320px;
+    .notification-menu-card-body {
+        padding: 0;
+    .notif-heading-right {
+        margin-left: auto;
+        font-size: 16px;
+    }
+    }
+    h5 {
+        color: rgb(255, 255, 255, 0.7);
+        font-weight: bold !important;
+    }
+    p {
+        font-weight: 200 !important;
+        color: $text-color !important;
+    }
+}
+
+.notif-card-stats {
+    .percent { 
+        font-size: 16px;
+        font-weight: 600;
+    }  
+    .up {
+        color: $up-indicator-color;
+    }
+    .currency {
+        color: white;
+        font-weight: 700;
+    }
+    .notif-link {
+        color: #70B2FF;
+        font-weight: 500;
+    }
+}

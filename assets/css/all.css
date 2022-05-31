@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h5 {
   color: #B1AFCD;
   font-weight: 700;
@@ -109,6 +110,76 @@ h2 {
 
 .dropdown-toggle::after {
   color: #6F6C99;
+}
+
+.notification-menu {
+  width: 450px;
+  height: 250px;
+  background: linear-gradient(210.96deg, rgba(40, 36, 88, 0.61) 0.01%, rgba(38, 35, 83, 0.7) 42.05%, rgba(62, 59, 115, 0) 104.81%);
+  filter: drop-shadow(0px 48px 69px rgba(23, 18, 43, 0.845335));
+  z-index: 1;
+}
+
+.notification-content {
+  padding-right: 25px;
+  padding-left: 40px;
+  height: inherit;
+  overflow: auto;
+}
+.notification-content::-webkit-scrollbar {
+  width: 10px;
+  /* ширина для вертикального скролла */
+  background-color: #143861;
+}
+.notification-content::-webkit-scrollbar-button:vertical:start:decrement {
+  background-color: #f6f8f4;
+}
+.notification-content::-webkit-scrollbar-button:vertical:end:increment {
+  background-color: #f6f8f4;
+}
+.notification-content .notification-menu-heading {
+  color: rgb(177, 175, 205);
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.notification-menu-card {
+  height: max-content;
+  background: inherit;
+  border: none;
+  margin-top: 30px;
+  width: 320px;
+}
+.notification-menu-card .notification-menu-card-body {
+  padding: 0;
+}
+.notification-menu-card .notification-menu-card-body .notif-heading-right {
+  margin-left: auto;
+  font-size: 16px;
+}
+.notification-menu-card h5 {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold !important;
+}
+.notification-menu-card p {
+  font-weight: 200 !important;
+  color: #6F6C99 !important;
+}
+
+.notif-card-stats .percent {
+  font-size: 16px;
+  font-weight: 600;
+}
+.notif-card-stats .up {
+  color: rgb(80, 227, 194);
+}
+.notif-card-stats .currency {
+  color: white;
+  font-weight: 700;
+}
+.notif-card-stats .notif-link {
+  color: #70B2FF;
+  font-weight: 500;
 }
 
 .wallet-cards {
