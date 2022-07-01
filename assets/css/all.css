@@ -79,6 +79,11 @@ h2 {
   margin-top: 145px;
 }
 
+.active {
+  color: #E14CD1 !important;
+  background-color: transparent !important;
+}
+
 #page-header p {
   color: #6F6C99;
   font-weight: 600;
@@ -198,7 +203,7 @@ h2 {
   background-color: transparent;
   border: 1px solid #312F62;
   border-radius: 10px;
-  height: min-content;
+  height: 125px;
 }
 .wallet-cards a {
   text-decoration: none;
