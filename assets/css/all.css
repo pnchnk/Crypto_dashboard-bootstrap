@@ -45,24 +45,24 @@ h2 {
 #left-menu .left-menu-heading .bold-heading {
   font-weight: bold;
 }
-#left-menu .menu-1 {
+#left-menu .menu-dashboard {
   padding-bottom: 40px;
   position: relative;
 }
-#left-menu .menu-2 {
+#left-menu .menu-wallet {
   padding-bottom: 50px;
   position: relative;
 }
-#left-menu .menu-3 {
+#left-menu .menu-messages {
   padding-bottom: 40px;
   position: relative;
 }
-#left-menu .menu-3 .notification {
+#left-menu .menu-messages .notification {
   top: 18px;
   background: linear-gradient(180deg, #FF40A5 0%, #E14CD1 100%);
   right: 50px;
 }
-#left-menu .menu-4 {
+#left-menu .menu-trade {
   padding-bottom: 40px;
   position: relative;
 }
